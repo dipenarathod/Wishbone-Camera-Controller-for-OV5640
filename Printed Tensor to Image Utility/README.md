@@ -3,3 +3,5 @@ In your Ada application program, you can use the Print_Tensor_Q07 function from 
 The printed tensor will use int8 Q0.7 numbers.
 
 Paste the tensor from the UART output window into the img_data array in the Python script here to create an image using it.
+
+An img_data array is commented out for your reference
