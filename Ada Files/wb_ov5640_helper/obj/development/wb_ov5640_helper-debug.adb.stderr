@@ -1,0 +1,8 @@
+wb_ov5640_helper-debug.adb:15:65: (style) space required [-gnatyt]
+wb_ov5640_helper-debug.adb:28:35: warning: redundant conversion, expression is of type "Unsigned_32" [-gnatwr]
+wb_ov5640_helper-debug.adb:28:71: (style) space required [-gnatyc]
+wb_ov5640_helper-debug.adb:29:72: (style) space required [-gnatyc]
+wb_ov5640_helper-debug.adb:30:74: (style) space required [-gnatyc]
+wb_ov5640_helper-debug.adb:31:51: (style) space required [-gnatyc]
+wb_ov5640_helper-debug.adb:32:52: (style) space required [-gnatyc]
+wb_ov5640_helper-debug.adb:33:55: (style) space required [-gnatyc]
