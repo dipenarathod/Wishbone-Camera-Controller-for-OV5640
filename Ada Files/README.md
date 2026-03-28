@@ -13,10 +13,6 @@ This folder contains Ada test programs for the Wishbone OV5640 camera controller
 
 These tests are intended to validate the hardware interface and show how to use the helper library.
 
-## Dependencies
-- [NEORV32 Ada HAL](https://github.com/GNAT-Academic-Program/neorv32-hal)
-- [Input Output Library](https://github.com/dipenarathod/Wishbone-NPU/tree/main)
-
 Use this folder if you want to:
 - Run hardware validation tests
 - See example usage from Ada
