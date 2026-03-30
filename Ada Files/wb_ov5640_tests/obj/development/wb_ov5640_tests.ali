@@ -1,0 +1,197 @@
+V "GNAT Lib v14"
+M P W=8
+A -Og
+A -O3
+A -gnatA
+A --RTS=/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/
+A -mabi=ilp32
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -gnat2022
+A -gnatn
+A -misa-spec=20191213
+A -march=rv32i_zicsr_zifencei
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U wb_ov5640_tests%b	wb_ov5640_tests.adb	1b9ce7e6 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W input_output_helper%s	input_output_helper.adb	input_output_helper.ali
+W input_output_helper.debug%s  input_output_helper-debug.adb  input_output_helper-debug.ali
+W input_output_helper.time_measurements%s  input_output_helper-time_measurements.adb  input_output_helper-time_measurements.ali
+W input_output_helper.utils%s  input_output_helper-utils.adb  input_output_helper-utils.ali
+W interfaces%s		interfac.ads		interfac.ali
+W runtime_support%s	runtime_support.adb	runtime_support.ali
+W uart0%s		uart0.adb		uart0.ali
+W wb_ov5640_address_map%s  wb_ov5640_address_map.ads  wb_ov5640_address_map.ali
+W wb_ov5640_helper%s	wb_ov5640_helper.adb	wb_ov5640_helper.ali
+W wb_ov5640_helper.debug%s  wb_ov5640_helper-debug.adb  wb_ov5640_helper-debug.ali
+
+D ada.ads		20250921045803 76789da1 ada%s
+D a-assert.ads		20250921045803 ba465f5c ada.assertions%s
+D a-except.ads		20250921045803 5b5f0f2f ada.exceptions%s
+D a-numeri.ads		20250921045803 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250921045803 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250921045803 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-textio.ads		20250921045803 6c013a58 ada.text_io%s
+D a-unccon.ads		20250921045803 0e9b276f ada.unchecked_conversion%s
+D input_output_helper.ads  20260226062952 e32e24f3 input_output_helper%s
+D input_output_helper.adb  20260203081950 54564662 input_output_helper%b
+D input_output_helper-debug.ads  20260226063247 7f608424 input_output_helper.debug%s
+D input_output_helper-time_measurements.ads  20260226063242 1f2363fb input_output_helper.time_measurements%s
+D input_output_helper-time_measurements.adb  20260130124013 1ecb2736 input_output_helper.time_measurements%b
+D input_output_helper-utils.ads  20260226063212 51b2d0dc input_output_helper.utils%s
+D interfac.ads		20250921045803 9111f9c1 interfaces%s
+D interrupts.ads	20251024231132 56bb57a4 interrupts%s
+D neorv32.ads		20251024231132 d5039e82 neorv32%s
+D riscv.ads		20251024231132 01b22458 riscv%s
+D riscv-csr.ads		20251024231132 0134c358 riscv.csr%s
+D riscv-csr_generic.ads	20251024231132 5bcb4405 riscv.csr_generic%s
+D riscv-types.ads	20251024231132 d60fb95a riscv.types%s
+D runtime_support.ads	20250922081033 7bf0b3fb runtime_support%s
+D system.ads		20250921045803 28e4acdd system%s
+D s-atacco.ads		20250921045803 5868e3ba system.address_to_access_conversions%s
+D s-assert.ads		20250921045803 9c4520c7 system.assertions%s
+D s-fatflt.ads		20250921045803 11beb392 system.fat_flt%s
+D s-fatgen.ads		20250921045803 d28c6cfe system.fat_gen%s
+D s-fatgen.adb		20250921045803 6cc1fec9 system.fat_gen%b
+D s-imageu.ads		20250921045803 b0b50650 system.image_u%s
+D s-imageu.adb		20250921045803 adcee293 system.image_u%b
+D s-imgllu.ads		20250921045803 55ba53d8 system.img_llu%s
+D s-maccod.ads		20250921045803 cdca081e system.machine_code%s
+D s-stoele.ads		20250921045803 ccded4e8 system.storage_elements%s
+D s-unstyp.ads		20250921045803 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250921045803 b0fcd073 system.val_spec%s
+D s-vauspe.ads		20250921045803 89269ba5 system.value_u_spec%s
+D s-vauspe.adb		20250921045803 8524adb4 system.value_u_spec%b
+D s-vs_llu.ads		20250921045803 8f3536c5 system.vs_llu%s
+D uart0.ads		20251024231132 bac314ca uart0%s
+D wb_ov5640_address_map.ads  20260330114326 46b721eb wb_ov5640_address_map%s
+D wb_ov5640_helper.ads	20260330114316 5d5e0129 wb_ov5640_helper%s
+D wb_ov5640_helper.adb	20260330114354 86b7d5df wb_ov5640_helper%b
+D wb_ov5640_helper-debug.ads  20260207100906 8b35e43d wb_ov5640_helper.debug%s
+D wb_ov5640_tests.adb	20260330114513 65bc5441 wb_ov5640_tests%b
+G a e
+G c Z b b [wb_ov5640_tests standard 16 11 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [tensor_words input_output_helper 62 13 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [init uart0 3 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [is_camera_programmed wb_ov5640_helper 62 13 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [set_image_resolution wb_ov5640_helper 45 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [print_status_register_detail wb_ov5640_helper__debug 4 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [wait_for_camera_streaming wb_ov5640_helper 60 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [write_i2c wb_ov5640_helper 65 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [print_registers wb_ov5640_helper__debug 3 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [read_cycle input_output_helper__time_measurements 17 13 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [start_capturing_image wb_ov5640_helper 52 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [wait_while_camera_busy wb_ov5640_helper 58 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [print_time input_output_helper__time_measurements 18 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [read_words_from_image_buffer wb_ov5640_helper 68 14 none]
+G r c none [wb_ov5640_tests standard 16 11 none] [print_tensor_q07 input_output_helper__debug 3 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 44|8r6 8r34
+X 7 a-textio.ads
+36K13*Text_IO 62e16 44|8w10 8r38
+54U14*Put_Line 44|27s10 29s10 66s7 71s4
+X 9 input_output_helper.ads
+6K9*Input_Output_Helper 89e24 44|1w6 1r49 2r6 2r49 3r6 3r49 4r6 5r5
+14M12*Word{15|81M9} 44|90r15 90r32 91r15 91r32 92r15 92r32 95r15 95r32 96r15
+. 96r32 98r15 98r32 99r15 99r32 100r15 100r32 101r15 101r32 102r15 102r32
+. 103r15 103r32 104r15 104r32 105r15 105r32 106r15 106r32 108r15 108r32 109r15
+. 109r32 110r15 110r32 112r15 112r32 113r15 113r32 114r15 114r32 115r15 115r32
+. 118r14 118r30 119r14 119r30 120r14 120r30 122r15 122r32 123r15 123r32 124r15
+. 124r32 125r15 125r32 126r15 126r32 127r15 127r32 129r15 129r32 130r15 130r32
+. 131r15 131r32 132r15 132r32 134r15 134r32 135r15 135r32 136r15 136r32 137r15
+. 137r32 139r15 139r32 140r15 140r32 141r15 141r32 142r15 142r32 144r15 144r32
+. 145r15 145r32 146r15 146r32 147r15 147r32 149r15 149r32 150r15 150r32 151r15
+. 151r32 152r15 152r32 154r15 154r32 155r15 155r32 157r15 157r31 158r15 158r31
+. 159r15 159r31 160r15 160r31 161r15 161r31
+21A9*Word_Array(14M12)<integer> 44|19r21
+62V13*Tensor_Words{natural} 44|18s32
+X 11 input_output_helper-debug.ads
+1K29*Debug 10e30 44|2w26 2r69
+3U14*Print_Tensor_Q07 44|169s4
+X 12 input_output_helper-time_measurements.ads
+9K29*Time_Measurements 23e4 44|4w26 5r25
+17V13*Read_Cycle{15|84M9} 44|47s23 56s21 60s23 62s21
+18U14*Print_Time 44|58s7 64s7
+X 14 input_output_helper-utils.ads
+1K29*Utils 12e30 44|3w26 3r69
+X 15 interfac.ads
+38K9*Interfaces 233e15 44|7w6 7r34
+81M9*Unsigned_32
+84M9*Unsigned_64 44|20r21 21r21 22r21
+X 22 runtime_support.ads
+3K9*Runtime_Support 6e20 44|10w6
+X 39 uart0.ads
+1K9*Uart0 5e10 44|9w6 70r4
+3U14*Init 44|70s10
+X 40 wb_ov5640_address_map.ads
+2K9*Wb_Ov5640_Address_Map 41e26 44|14w6 14r37
+X 41 wb_ov5640_helper.ads
+5K9*Wb_Ov5640_Helper 89e21 44|11w6 11r34 12r6 12r34
+45U14*Set_Image_Resolution 44|81s4
+52U14*Start_Capturing_Image 44|48s7
+58U14*Wait_While_Camera_Busy 44|55s7
+60U14*Wait_For_Camera_Streaming 44|84s4 165s4
+62V13*Is_Camera_Programmed{boolean} 44|40s17
+65U14*write_i2c 44|90s4 91s4 92s4 95s4 96s4 98s4 99s4 100s4 101s4 102s4 103s4
+. 104s4 105s4 106s4 108s4 109s4 110s4 112s4 113s4 114s4 115s4 118s4 119s4
+. 120s4 122s4 123s4 124s4 125s4 126s4 127s4 129s4 130s4 131s4 132s4 134s4
+. 135s4 136s4 137s4 139s4 140s4 141s4 142s4 144s4 145s4 146s4 147s4 149s4
+. 150s4 151s4 152s4 154s4 155s4 157s4 158s4 159s4 160s4 161s4
+68U14*Read_Words_From_Image_Buffer 44|61s7
+X 43 wb_ov5640_helper-debug.ads
+1K26*Debug 5e27 44|12w23 12r51
+3U14*Print_Registers 44|164s4
+4U14*Print_Status_Register_Detail 44|82s4
+X 44 wb_ov5640_tests.adb
+16U11*Wb_Ov5640_Tests 16b11 182l5 182t20
+18i4 Image_Words{natural} 19r38
+19a4 Captured_Image{9|21A9} 61m37 169r31
+20m4 Start_Cycles{15|84M9} 47m7 58r65 60m7 64r62
+21m4 End_Cycles{15|84M9} 56m7 58r52 62m7 64r49
+22m4 Delta_Cycles{15|84M9}
+24U14 Print_Result 24b14 24>28 24>43 31l8 31t20 41s7
+24a28 Name{string} 27r20 29r20
+24b43 Passed{boolean} 26r10
+34U14 Test_Camera_SCCB_Status 34b14 42l8 42t31 80s4
+35b7 Result{boolean} 40m7 41r49
+44U14 Test_Image_Capture_And_Read 44b14 67l8 67t35 167s4 168s4
+73i8 I{integer}
+75i11 J{integer}
+

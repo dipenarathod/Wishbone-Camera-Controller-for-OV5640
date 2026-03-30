@@ -1,0 +1,140 @@
+V "GNAT Lib v14"
+A -Og
+A -O3
+A -gnatA
+A --RTS=/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/
+A -mabi=ilp32
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -gnat2022
+A -gnatn
+A -misa-spec=20191213
+A -march=rv32i_zicsr_zifencei
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U wb_ov5640_helper.debug%b  wb_ov5640_helper-debug.adb  69c4b45a NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_uns%s	s-imguns.ads		s-imguns.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W wb_ov5640_address_map%s  wb_ov5640_address_map.ads  wb_ov5640_address_map.ali
+W wb_ov5640_helper%s	wb_ov5640_helper.adb	wb_ov5640_helper.ali
+
+U wb_ov5640_helper.debug%s  wb_ov5640_helper-debug.ads  d66be514 EE NE OO PK
+W wb_ov5640_helper%s	wb_ov5640_helper.adb	wb_ov5640_helper.ali
+
+D ada.ads		20250921045803 76789da1 ada%s
+D a-assert.ads		20250921045803 ba465f5c ada.assertions%s
+D a-except.ads		20250921045803 5b5f0f2f ada.exceptions%s
+D a-numeri.ads		20250921045803 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250921045803 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250921045803 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-textio.ads		20250921045803 6c013a58 ada.text_io%s
+D a-unccon.ads		20250921045803 0e9b276f ada.unchecked_conversion%s
+D input_output_helper.ads  20260226062952 e32e24f3 input_output_helper%s
+D input_output_helper.adb  20260203081950 54564662 input_output_helper%b
+D interfac.ads		20250921045803 9111f9c1 interfaces%s
+D system.ads		20250921045803 28e4acdd system%s
+D s-atacco.ads		20250921045803 5868e3ba system.address_to_access_conversions%s
+D s-assert.ads		20250921045803 9c4520c7 system.assertions%s
+D s-fatflt.ads		20250921045803 11beb392 system.fat_flt%s
+D s-fatgen.ads		20250921045803 d28c6cfe system.fat_gen%s
+D s-fatgen.adb		20250921045803 6cc1fec9 system.fat_gen%b
+D s-imagei.ads		20250921045803 5e131ce0 system.image_i%s
+D s-imageu.ads		20250921045803 b0b50650 system.image_u%s
+D s-imageu.adb		20250921045803 adcee293 system.image_u%b
+D s-imgint.ads		20250921045803 67e4edfb system.img_int%s
+D s-imguns.ads		20250921045803 c4e23690 system.img_uns%s
+D s-stoele.ads		20250921045803 ccded4e8 system.storage_elements%s
+D s-unstyp.ads		20250921045803 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250921045803 b0fcd073 system.val_spec%s
+D s-vaispe.ads		20250921045803 8280550e system.value_i_spec%s
+D s-vaispe.adb		20250921045803 dbcabb05 system.value_i_spec%b
+D s-vauspe.ads		20250921045803 89269ba5 system.value_u_spec%s
+D s-vauspe.adb		20250921045803 8524adb4 system.value_u_spec%b
+D s-vs_int.ads		20250921045803 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20250921045803 e7f47a27 system.vs_uns%s
+D wb_ov5640_address_map.ads  20260330114326 46b721eb wb_ov5640_address_map%s
+D wb_ov5640_helper.ads	20260330114316 5d5e0129 wb_ov5640_helper%s
+D wb_ov5640_helper-debug.ads  20260207100906 8b35e43d wb_ov5640_helper.debug%s
+D wb_ov5640_helper-debug.adb  20260330114437 5956b215 wb_ov5640_helper.debug%b
+G a e
+G c Z s b [print_registers wb_ov5640_helper__debug 3 14 none]
+G c Z s b [print_status_register_detail wb_ov5640_helper__debug 4 14 none]
+G r c none [print_registers wb_ov5640_helper__debug 3 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [print_status_register_detail wb_ov5640_helper__debug 4 14 none] [read_reg input_output_helper 49 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 35|1r6 1r23
+X 7 a-textio.ads
+36K13*Text_IO 62e16 35|1w10 1r27
+54U14*Put_Line 35|11s7 12s7 13s7 16s7 19s7 39s7 40s7 41s7 42s7 43s7 44s7
+. 45s7 46s7
+X 9 input_output_helper.ads
+14M12*Word{11|81M9} 35|11r32 12r34 15r12 18r12 19r55 23r23 33r21 34r23 35r28
+. 36r28 37r31 39r34 40r34
+49V13*Read_Reg{14M12} 35|11s44 12s46 15s24 18s24 19s66 31s12 39s46
+X 11 interfac.ads
+38K9*Interfaces 233e15 35|2w6 2r22
+81M9*Unsigned_32 35|32r35
+146V13*Shift_Right{81M9} 35|32s22
+X 12 system.ads
+85M9*Address
+X 32 wb_ov5640_address_map.ads
+2K9*Wb_Ov5640_Address_Map 41e26 35|4w6 4r37
+6m4*CTRL_Addr{12|85M9} 35|11r54 39r56
+9m4*STATUS_Addr{12|85M9} 35|12r56 31r22
+14m4*IMAGE_RESOLUTION_Addr{12|85M9} 35|15r34
+20m4*SCCB_PROGRAM_STATUS_REG_Addr{12|85M9} 35|18r34
+33m4*SCCB_USER_STATUS_Addr{12|85M9} 35|19r75
+X 33 wb_ov5640_helper.ads
+5K9*Wb_Ov5640_Helper 89e21 34|1r9 5r5 35|7r14 49r5
+X 34 wb_ov5640_helper-debug.ads
+1K26*Debug 33|5k9 34|5l22 5e27 35|7b31 49l22 49t27
+3U14*Print_Registers 35|9b14 20l8 20t23
+4U14*Print_Status_Register_Detail 35|22b14 47l8 47t36
+X 35 wb_ov5640_helper-debug.adb
+23m7 S{9|14M12} 31m7 32r48 33r15 34r17 35r22 36r22 37r25 40r46
+24i7 St{natural} 32m7 41r48
+25b7 Saw{boolean} 33m7 42r58
+26b7 Saw_V{boolean} 34m7 43r53
+27b7 Saw_V_Edge{boolean} 35m7 44r53
+28b7 Saw_H_Edge{boolean} 36m7 45r52
+29b7 Saw_PCLK_Edge{boolean} 37m7 46r52
+

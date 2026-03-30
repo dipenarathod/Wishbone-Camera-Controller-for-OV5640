@@ -1,0 +1,184 @@
+V "GNAT Lib v14"
+A -Og
+A -O3
+A -gnatA
+A --RTS=/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/
+A -mabi=ilp32
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -gnat2022
+A -gnatn
+A -misa-spec=20191213
+A -march=rv32i_zicsr_zifencei
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U wb_ov5640_helper%b	wb_ov5640_helper.adb	a54ad10a NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W input_output_helper%s	input_output_helper.adb	input_output_helper.ali
+W input_output_helper.utils%s  input_output_helper-utils.adb  input_output_helper-utils.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.storage_elements%s  s-stoele.ads	s-stoele.ali
+W wb_ov5640_address_map%s  wb_ov5640_address_map.ads  wb_ov5640_address_map.ali
+
+U wb_ov5640_helper%s	wb_ov5640_helper.ads	078570c6 BN EE NE OO PK
+W input_output_helper%s	input_output_helper.adb	input_output_helper.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20250921045803 76789da1 ada%s
+D a-except.ads		20250921045803 5b5f0f2f ada.exceptions%s
+D a-textio.ads		20250921045803 6c013a58 ada.text_io%s
+D a-unccon.ads		20250921045803 0e9b276f ada.unchecked_conversion%s
+D input_output_helper.ads  20260226062952 e32e24f3 input_output_helper%s
+D input_output_helper.adb  20260203081950 54564662 input_output_helper%b
+D input_output_helper-utils.ads  20260226063212 51b2d0dc input_output_helper.utils%s
+D interfac.ads		20250921045803 9111f9c1 interfaces%s
+D system.ads		20250921045803 28e4acdd system%s
+D s-atacco.ads		20250921045803 5868e3ba system.address_to_access_conversions%s
+D s-fatflt.ads		20250921045803 11beb392 system.fat_flt%s
+D s-fatgen.ads		20250921045803 d28c6cfe system.fat_gen%s
+D s-fatgen.adb		20250921045803 6cc1fec9 system.fat_gen%b
+D s-stoele.ads		20250921045803 ccded4e8 system.storage_elements%s
+D s-unstyp.ads		20250921045803 fa2a7f59 system.unsigned_types%s
+D wb_ov5640_address_map.ads  20260330114326 46b721eb wb_ov5640_address_map%s
+D wb_ov5640_helper.ads	20260330114316 5d5e0129 wb_ov5640_helper%s
+D wb_ov5640_helper.adb	20260330114354 86b7d5df wb_ov5640_helper%b
+G a e
+G c Z s b [set_image_resolution wb_ov5640_helper 45 14 none]
+G c Z s b [get_image_buffer_words_to_read wb_ov5640_helper 49 13 none]
+G c Z s b [start_capturing_image wb_ov5640_helper 52 14 none]
+G c Z s b [is_camera_busy wb_ov5640_helper 54 13 none]
+G c Z s b [is_camera_done wb_ov5640_helper 56 13 none]
+G c Z s b [wait_while_camera_busy wb_ov5640_helper 58 14 none]
+G c Z s b [wait_while_camera_becomes_busy wb_ov5640_helper 59 14 none]
+G c Z s b [wait_for_camera_streaming wb_ov5640_helper 60 14 none]
+G c Z s b [wait_while_camera_done wb_ov5640_helper 61 14 none]
+G c Z s b [is_camera_programmed wb_ov5640_helper 62 13 none]
+G c Z s b [write_i2c wb_ov5640_helper 65 14 none]
+G c Z s b [read_word_from_image_buffer wb_ov5640_helper 67 13 none]
+G c Z s b [read_words_from_image_buffer wb_ov5640_helper 68 14 none]
+G r c none [set_image_resolution wb_ov5640_helper 45 14 none] [write_reg input_output_helper 46 14 none]
+G r c none [get_image_buffer_words_to_read wb_ov5640_helper 49 13 none] [read_reg input_output_helper 49 13 none]
+G r c none [start_capturing_image wb_ov5640_helper 52 14 none] [write_reg input_output_helper 46 14 none]
+G r c none [start_capturing_image wb_ov5640_helper 52 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [is_camera_busy wb_ov5640_helper 54 13 none] [read_reg input_output_helper 49 13 none]
+G r c none [is_camera_done wb_ov5640_helper 56 13 none] [read_reg input_output_helper 49 13 none]
+G r c none [wait_while_camera_busy wb_ov5640_helper 58 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [wait_while_camera_becomes_busy wb_ov5640_helper 59 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [wait_for_camera_streaming wb_ov5640_helper 60 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [wait_while_camera_done wb_ov5640_helper 61 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [is_camera_programmed wb_ov5640_helper 62 13 none] [read_reg input_output_helper 49 13 none]
+G r c none [write_i2c wb_ov5640_helper 65 14 none] [read_reg input_output_helper 49 13 none]
+G r c none [write_i2c wb_ov5640_helper 65 14 none] [write_reg input_output_helper 46 14 none]
+G r c none [read_word_from_image_buffer wb_ov5640_helper 67 13 none] [add_byte_offset input_output_helper 42 13 none]
+G r c none [read_word_from_image_buffer wb_ov5640_helper 67 13 none] [read_reg input_output_helper 49 13 none]
+G r c none [read_words_from_image_buffer wb_ov5640_helper 68 14 none] [add_byte_offset input_output_helper 42 13 none]
+G r c none [read_words_from_image_buffer wb_ov5640_helper 68 14 none] [read_reg input_output_helper 49 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|5r6 5r37
+X 3 a-textio.ads
+36K13*Text_IO 62e16 18|5w10 5r41
+54U14*Put_Line 18|89s13
+X 5 input_output_helper.ads
+6K9*Input_Output_Helper 89e24 17|3w6 3r31 18|4r6 4r37
+14M12*Word{8|81M9} 17|65r44 65r67 67r66 18|14r20 16r21 30r29 33r29 40r37
+. 48r37 70r11 74r27 79r17 100r12 105r45 105r69 106r28 112r37 115r48 117r45
+. 121r66
+21A9*Word_Array(14M12)<integer> 17|68r55 18|129r55
+42V13*Add_Byte_Offset{9|85M9} 18|123s9
+46U14*Write_Reg 18|18s7 30s7 33s7 109s10 110s10 111s10 117s10
+49V13*Read_Reg{14M12} 18|24s23 40s10 48s10 73s15 83s15 99s10 114s35 125s14
+X 7 input_output_helper-utils.ads
+1K29*Utils 12e30 18|4w26 4r57
+X 8 interfac.ads
+38K9*Interfaces 233e15 17|1w6 18|3w6 3r37
+81M9*Unsigned_32 18|17r33 123r50
+141V13*Shift_Left{81M9} 18|17s21
+X 9 system.ads
+55K9*System 169e11 17|2w6 18|1r6 2r6 122r23
+85M9*Address 18|122r30
+X 10 s-atacco.ads
+39k16*Address_To_Access_Conversions 65e41 18|1w13
+X 14 s-stoele.ads
+40K16*Storage_Elements 90e28 18|2w13
+X 16 wb_ov5640_address_map.ads
+2K9*Wb_Ov5640_Address_Map 41e26 18|6w6 6r37
+6m4*CTRL_Addr{9|85M9} 18|30r18 33r18
+9m4*STATUS_Addr{9|85M9} 18|40r20 48r20 73r25 83r25
+14m4*IMAGE_RESOLUTION_Addr{9|85M9} 18|18r18
+17m4*MASTER_WORDS_TO_READ_Addr{9|85M9} 18|24r33
+20m4*SCCB_PROGRAM_STATUS_REG_Addr{9|85M9} 18|99r20
+24m4*SCCB_REG_ADDR_Addr{9|85M9} 18|109r21
+27m4*SCCB_REG_DATA_Addr{9|85M9} 18|110r21
+30m4*SCCB_USER_CONTROL_Addr{9|85M9} 18|112r13 117r21
+33m4*SCCB_USER_STATUS_Addr{9|85M9} 18|114r45
+38m4*IMAGE_BUFFER_BASE_Addr{9|85M9} 18|123r26
+X 17 wb_ov5640_helper.ads
+5K9*Wb_Ov5640_Helper 89l5 89e21 18|8b14 138l5 138t21
+45U14*Set_Image_Resolution 46>7 47>7 73r18 18|11b14 19l8 19t28
+46i7 Image_Width{natural} 18|12b7 16r27
+47i7 Image_Height{natural} 18|12b33 17r46
+49V13*Get_Image_Buffer_Words_To_Read{natural} 74r18 18|22b13 25l8 25t38
+52U14*Start_Capturing_Image 75r18 18|28b14 34l8 34t29
+54V13*Is_Camera_Busy{boolean} 77r18 18|37b13 42l8 42t22 55s13 64s14
+56V13*Is_Camera_Done{boolean} 78r18 18|45b13 50l8 50t22
+58U14*Wait_While_Camera_Busy 79r18 18|53b14 58l8 58t30
+59U14*Wait_While_Camera_Becomes_Busy 80r18 18|31s7 62b14 67l8 67t38
+60U14*Wait_For_Camera_Streaming 81r18 18|78b14 93l8 93t33
+61U14*Wait_While_Camera_Done 82r18 18|69b14 76t7
+62V13*Is_Camera_Programmed{boolean} 84r18 18|96b13 102l8 102t28 108s11
+65U14*write_i2c 65>24 65>50 85r18 18|105b14 119l8 119t17
+65m24 OV5640_reg_addres{5|14M12} 18|105b25 109r41
+65m50 OV5640_reg_data{5|14M12} 18|105b51 110r41
+67V13*Read_Word_From_Image_Buffer{5|14M12} 67>42 86r18 18|121b13 126l8 126t35
+. 133s22
+67i42 Index{natural} 18|121b42 123r63
+68U14*Read_Words_From_Image_Buffer 68<44 87r18 18|129b14 136l8 136t36
+68a44 Dest{5|21A9} 18|129b44 132r16 133m10
+X 18 wb_ov5640_helper.adb
+14m7 resolution{5|14M12} 16m7 17m7 17r68 18r41
+70m7 S{5|14M12} 73m10 74r21
+79m7 S{5|14M12} 83m10 85r22
+80i7 Timeout{natural} 87m10 87r21 88r14
+106m7 Manual_SCCB_Status{5|14M12} 114m13 115r25
+122m7 Addr{9|85M9} 125r24
+130i7 J{natural} 133r51 134m10 134r15
+132i11 I{integer} 133r16
+

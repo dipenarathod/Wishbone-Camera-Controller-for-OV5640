@@ -1,0 +1,11 @@
+[LIBRARY PATH]
+/home/dipen/Downloads/neorv32-halv3/wb_ov5640_helper/lib/libWb_Ov5640_Helper.a
+[OBJECT FILES]
+/home/dipen/Downloads/neorv32-halv3/wb_ov5640_helper/obj/release/wb_ov5640_address_map.o
+20260330114518
+/home/dipen/Downloads/neorv32-halv3/wb_ov5640_helper/obj/release/wb_ov5640_helper-debug.o
+20260330114519
+/home/dipen/Downloads/neorv32-halv3/wb_ov5640_helper/obj/release/wb_ov5640_helper.o
+20260330114518
+/home/dipen/Downloads/neorv32-halv3/wb_ov5640_helper/obj/release/wb_ov5640_helper_config.o
+20260330114518
