@@ -32,7 +32,7 @@ This project is designed to work with the [NEORV32 RISC-V Processor](https://git
 ## Related Repositories
 - **[Central Tutorial Repository](https://github.com/dipenarathod/NEORV32-NGTTDS-YT-Central-Repository)** - Central repository with links to all relevant websites, repositories, and video guides
 - **[Wishbone NPU](https://github.com/dipenarathod/Wishbone-NPU)** - Wishbone Peripheral used to accelerate common ML workloads in hardware
-- **[Wishbone Interconnect 1 Master 2 Slaves](https://github.com/dipenarathod/Wishbone-Interconnect-1-Master-2-Slaves)** - Wishbone Interconnect to connect 2 Wishbone Peripherals to a Master. Video in the repository shows how to connect the NEORV32 (controller) to the camera controller and the NPU (2 slaves)
+- **[Wishbone Interconnect 1 Master 2 Slaves](https://github.com/dipenarathod/Wishbone-Interconnect-1-Master-2-Slaves)** - Wishbone Interconnect to connect 2 Wishbone Peripherals to a Master
 
 ## Video Guides
 - **[Connecting the Wishbone Camera Controller to the NEORV32](https://www.youtube.com/playlist?list=PLTuulhiizN0K-HTymHKr1Nurv-iq_RdWK)** - Shows you how to connect the NEORV32 to a Wishbone Camera Controller for OV5640
