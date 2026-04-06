@@ -2,7 +2,8 @@
 
 A Wishbone-compliant OV5640 camera controller written in VHDL.
 
-This project is designed to work with the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) and was developed using the [Waveshare OV5640 Camera Board (C)](https://www.waveshare.com/wiki/OV5640_Camera_Board_(C)).
+For example purposes, this project is designed to work with the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32), and the Ada and C libraries are written for the NEORV32. However, this peripheral can be used with any RISCV core with a Wishbone interface. 
+The camera used: [Waveshare OV5640 Camera Board (C)](https://www.waveshare.com/wiki/OV5640_Camera_Board_(C)).
 
 ## Features
 - Supports grayscale image capture from the YUV422 image format
